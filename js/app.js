@@ -35,7 +35,7 @@ window.addEventListener('load', () => {
 
           let img = document.createElement('img');
           img.src = `http://openweathermap.org/img/wn/${icon}@2x.png`;
-          document.querySelector('.location').appendChild(img);
+          document.querySelector('.temperature').appendChild(img);
         });
     });
   }
